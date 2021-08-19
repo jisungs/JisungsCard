@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4366BF1926CE32AD0074FE50 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4366BF1826CE32AD0074FE50 /* InfoView.swift */; };
 		437A4F1826CE26C700788DB4 /* JisungsCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A4F1726CE26C700788DB4 /* JisungsCardApp.swift */; };
 		437A4F1A26CE26C700788DB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A4F1926CE26C700788DB4 /* ContentView.swift */; };
 		437A4F1C26CE26C800788DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437A4F1B26CE26C800788DB4 /* Assets.xcassets */; };
 		437A4F1F26CE26C800788DB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437A4F1E26CE26C800788DB4 /* Preview Assets.xcassets */; };
+		437A4F2826CE294A00788DB4 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 437A4F2726CE294A00788DB4 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4366BF1826CE32AD0074FE50 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		437A4F1426CE26C700788DB4 /* JisungsCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JisungsCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437A4F1726CE26C700788DB4 /* JisungsCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JisungsCardApp.swift; sourceTree = "<group>"; };
 		437A4F1926CE26C700788DB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		437A4F1B26CE26C800788DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		437A4F1E26CE26C800788DB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		437A4F2026CE26C800788DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437A4F2726CE294A00788DB4 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		437A4F1626CE26C700788DB4 /* JisungsCard */ = {
 			isa = PBXGroup;
 			children = (
+				437A4F2626CE290A00788DB4 /* fonts */,
 				437A4F1726CE26C700788DB4 /* JisungsCardApp.swift */,
 				437A4F1926CE26C700788DB4 /* ContentView.swift */,
 				437A4F1B26CE26C800788DB4 /* Assets.xcassets */,
 				437A4F2026CE26C800788DB4 /* Info.plist */,
 				437A4F1D26CE26C800788DB4 /* Preview Content */,
+				4366BF1826CE32AD0074FE50 /* InfoView.swift */,
 			);
 			path = JisungsCard;
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				437A4F1E26CE26C800788DB4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		437A4F2626CE290A00788DB4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				437A4F2726CE294A00788DB4 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				437A4F2826CE294A00788DB4 /* Pacifico-Regular.ttf in Resources */,
 				437A4F1F26CE26C800788DB4 /* Preview Assets.xcassets in Resources */,
 				437A4F1C26CE26C800788DB4 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				437A4F1A26CE26C700788DB4 /* ContentView.swift in Sources */,
+				4366BF1926CE32AD0074FE50 /* InfoView.swift in Sources */,
 				437A4F1826CE26C700788DB4 /* JisungsCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
