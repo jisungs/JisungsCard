@@ -29,6 +29,7 @@ struct ContentView: View {
                 Divider()
                 InfoView(text: "+82 10 1234 1234", imageName: "phone.fill")
                 InfoView(text: "jisung.smart@gmail.com", imageName: "envelope.fill")
+                // text commit
                 
 //                ZStack {
 //                    RoundedRectangle(cornerRadius: 20)
